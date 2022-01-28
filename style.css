@@ -1,1 +1,29 @@
+.myDiv {
+	border: 1px outset red ;
+	padding: 50px;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+	background-color: White;
+	text-align: center;
+}
+h1{ 
+	border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 700px;
+  margin-left: 700px;
+  background-color: White;
+  
+}
+	
+
+}
+#answer{
+background-color: Black;
+visibility: hidden;
+}
+body {
+  background-color: AntiqueWhite;
+}
 
