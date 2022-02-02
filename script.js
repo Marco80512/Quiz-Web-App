@@ -1,15 +1,7 @@
 $(document).ready(function() {
-	$("h1").click(function() {
+	$("#question").click(function(){
 		
-	});
-	
-	$("#myDiv").click(function(){
-	
-
-	});
-	$("#p1").click(function(){
-		
-	$(".disappear").fadeToggle("slow");
+	$("#answer").fadeToggle("slow");
   
   });
 

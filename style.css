@@ -16,14 +16,17 @@ h1{
   background-color: White;
   
 }
-	
-
-}
 #answer{
-background-color: Black;
-visibility: hidden;
+background-color: White;
+display: none;
 }
 body {
   background-color: AntiqueWhite;
 }
+#left{ 
+
+  margin-right: 1100px;
+  margin-left: 1100px;
+  background-color: White;
+  
 
