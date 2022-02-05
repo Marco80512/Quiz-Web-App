@@ -1,3 +1,7 @@
+body{
+  background-color:Antiquewhite;
+}
+
 .myDiv {
 	border: 1px outset red ;
 	padding: 50px;
@@ -20,13 +24,15 @@ h1{
 background-color: White;
 display: none;
 }
-body {
-  background-color: AntiqueWhite;
-}
+
 #left{ 
 
   margin-right: 1100px;
   margin-left: 1100px;
-  background-color: White;
-  
+}
+#move{
+  margin-right: 800px;
+  margin-left: 810px;
+}
+
 
