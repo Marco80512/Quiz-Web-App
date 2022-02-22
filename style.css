@@ -13,10 +13,7 @@ body{
 }
 h1{ 
 	border: 1px solid black;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 650px;
-  margin-left: 650px;
+  text-align: center;
   background-color: White;
   
 }
@@ -27,17 +24,19 @@ display: none;
 
 #left{ 
 
-  margin-right: 1100px;
-  margin-left: 1100px;
+  margin-right: 300px;
+  float: right;
   background-color: AntiqueWhite;
+}
+#right{ 
 
-  
-
+ float: left;
+  margin-left: 300px;
+  background-color: AntiqueWhite;
 }
 #move{
     
-  margin-right: 800px;
-  margin-left: 810px;
+   text-align: center;
 }
 
 

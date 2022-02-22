@@ -6,19 +6,32 @@ let answers=["Theodore Roosevelt","Monday, February 21, 2022","New York City","C
 "April 12, 1861  April 9, 1865"]
 let questionnumber=1
 $(document).ready(function() {
+    
 	$("#question").click(function(){
 		
 	$("#answer").fadeToggle("slow");
     
   });
-    $("#left").click(function(){
+    $("#left").click(function(){   
+        
+    $("#question").text(questions[questionnumber]);    
+    $("#answer").hide();    
+     $("#answer").text(answers[questionnumber]); 
+     if (questionnumber < 10)
+     {         
+     questionnumber=questionnumber+1
+     }
+     });   
+	 $("#right").click(function(){   
         
     $("#question").text(questions[questionnumber]);    
     $("#answer").hide();    
      $("#answer").text(answers[questionnumber]);    
-     questionnumber=questionnumber+1
+     if (questionnumber > 0)
+     {
+     questionnumber=questionnumber-1
+     }
      });   
-	
 
 		
 	});
